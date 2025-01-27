@@ -27,8 +27,8 @@ const Taxes = lazy(() => import('@/pages/Taxes'));
 
 const Profile = lazy(() => import('@/pages/Profile'));
 
-const People = lazy(() => import('@/pages/People'));
-const Company = lazy(() => import('@/pages/Company'));
+// const People = lazy(() => import('@/pages/People'));
+// const Company = lazy(() => import('@/pages/Company'));
 
 const About = lazy(() => import('@/pages/About'));
 
@@ -55,15 +55,14 @@ let routes = {
       path: '/customer',
       element: <Customer />,
     },
-    {
-      path: '/people',
-      element: <People />,
-    },
-    {
-      path: '/company',
-      element: <Company />,
-    },
-
+    // {
+    //   path: '/people',
+    //   element: <People />,
+    // },
+    // {
+    //   path: '/company',
+    //   element: <Company />,
+    // },
     {
       path: '/invoice',
       element: <Invoice />,
